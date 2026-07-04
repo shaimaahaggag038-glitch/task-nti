@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Task Scheduler</h1>
+    <div class="container">
+
+    <div class="form">
+
+        <input type="text" placeholder="Enter task...">
+
+        <select>
+            <option>Top Priority</option>
+            <option>Medium Priority</option>
+            <option>Low Priority</option>
+        </select>
+
+        <input type="date">
+
+        <button>Add Task</button>
+
+    </div>
+
+    <div class="tasks">
+
+        <div class="task">
+            <h3>DSA Practice</h3>
+
+            <p>Priority: top</p>
+
+            <p>Deadline: 2023-08-24</p>
+
+            <button class="done">Mark Done</button>
+        </div>
+
+        <div class="task">
+            <h3>Js Practice</h3>
+
+            <p>Priority: top</p>
+
+            <p>Deadline: 2023-09-01</p>
+
+            <button class="done">Mark Done</button>
+        </div>
+
+        <div class="task">
+            <h3>Maths Practice</h3>
+
+            <p>Priority: top</p>
+
+            <p>Deadline: 2023-08-31</p>
+
+            <button class="done">Mark Done</button>
+        </div>
+
+    </div>
+
+</div>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+h1{
+    background:#0d5eff;
+    color:white;
+    text-align:center;
+    padding:35px;
+}
+
+
+
+.container{
+    width:90%;
+    margin:40px auto;
+}
+
+.form{
+    display:flex;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.form input,
+.form select,
+.form button{
+    padding:10px;
+    font-size:18px;
+}
+
+.form input[type="text"]{
+    width:320px;
+}
+
+.tasks{
+    border:1px solid #ddd;
+    background:white;
+    padding:20px;
+}
+
+.task{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border:1px solid #ccc;
+    border-radius:8px;
+    padding:25px;
+    margin-bottom:20px;
+}
+
+.task h3{
+    font-size:22px;
+    font-weight:normal;
+}
+
+.task p{
+    font-size:18px;
+}
+
+.done{
+    background:#18c44c;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.done:hover{
+    background:#0ea73d;
+}
+</style>
+</body>
+</html>

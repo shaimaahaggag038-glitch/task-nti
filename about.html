@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+    <div class="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+    <form>
+
+        <div class="row">
+            <div class="input-box">
+                <label>First Name</label>
+                <input type="text">
+            </div>
+
+            <div class="input-box">
+                <label>Last Name</label>
+                <input type="text">
+            </div>
+        </div>
+
+        <div class="input-box full">
+            <label>Email Address</label>
+            <input type="email">
+        </div>
+
+        <div class="row">
+            <div class="input-box">
+                <label>Password</label>
+                <input type="password">
+            </div>
+
+            <div class="input-box">
+                <label>Confirm Password</label>
+                <input type="password">
+            </div>
+        </div>
+
+        <div class="input-box full">
+            <label>City</label>
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+
+        <div class="input-box full">
+            <label>Phone</label>
+            <input type="tel">
+        </div>
+
+        <button>Get Started</button>
+
+    </form>
+
+</div>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:700px;
+    background:#fff;
+    padding:40px;
+    border-radius:8px;
+    position:relative;
+}
+
+.close-btn{
+    position:absolute;
+    top:20px;
+    right:20px;
+    width:45px;
+    height:45px;
+    background:#1e88ff;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    cursor:pointer;
+}
+
+.row{
+    display:flex;
+    gap:20px;
+    margin-bottom:20px;
+}
+
+.input-box{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+.full{
+    margin-bottom:20px;
+}
+
+label{
+    margin-bottom:8px;
+    font-size:18px;
+    color:#333;
+}
+
+input,
+select{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    outline:none;
+    font-size:16px;
+}
+
+input:focus,
+select:focus{
+    border-color:#1e88ff;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    background:#5d63f4;
+    color:#fff;
+    font-size:18px;
+    cursor:pointer;
+    border-radius:3px;
+}
+
+button:hover{
+    background:#4d52d9;
+}
+
+</style>
+    
+</body>
+</html>
