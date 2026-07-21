@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morent - Dashboard</title>
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body class="dashboard-page">
+
+   
+    <header>
+        <div class="logo">
+            <h1>MORENT</h1>
+        </div>
+
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search something here">
+            <i class="fa-solid fa-sliders"></i>
+        </div>
+
+        <div class="right">
+            <div class="icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="icon">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class="profile">
+                
+                <img src="(1) Instagram.jpg" alt="Profile">
+            </div>
+        </div>
+    </header>
+
+    
+    <div class="dashboard-container">
+
+        
+        <aside class="sidebar">
+            <div class="menu-group">
+                <p class="menu-title">MAIN MENU</p>
+                <ul>
+                    <li class="active"><a href="#"><i class="fa-solid fa-house"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fa-solid fa-car"></i> Car Rent</a></li>
+                    <li><a href="#"><i class="fa-chart-line fa-solid"></i> Insight</a></li>
+                    <li><a href="#"><i class="fa-solid fa-wallet"></i> Reimburse</a></li>
+                    <li><a href="#"><i class="fa-regular fa-comment-dots"></i> Inbox</a></li>
+                    <li><a href="#"><i class="fa-regular fa-calendar"></i> Calender</a></li>
+                </ul>
+            </div>
+
+            <div class="menu-group">
+                <p class="menu-title">PREFERENCES</p>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+                    <li><a href="#"><i class="fa-regular fa-circle-question"></i> Help & Center</a></li>
+                    <li class="dark-mode-toggle">
+                        <a href="#"><i class="fa-solid fa-briefcase"></i> Dark Mode</a>
+                        <div class="mode-switch">
+                            <i class="fa-solid fa-sun active-icon"></i>
+                            <i class="fa-regular fa-moon"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="logout-btn">
+                <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Log Out</a>
+            </div>
+        </aside>
+
+        
+        <main class="dashboard-content">
+
+           
+            <section class="details-rental-card">
+                <h3>Details Rental</h3>
+
+                >
+                <div class="map-box">
+                    <iframe 
+                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13803.282860925849!2d31.31971865432739!3d30.12794329810272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145815b60a8beef1%3A0x50ead0a80b09aff2!2sAin%20Shams%2C%20Ain%20Shams%20Sharkeya%2C%20Ain%20Shams%2C%20Cairo%20Governorate%204543070!5e0!3m2!1sen!2seg!4v1784653014319!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>">
+                        
+                        
+                </iframe>
+                </div>
+
+                
+                <div class="car-summary-header">
+                    <div class="car-img-box">
+                       
+                        <img src="car2.webp" alt="Nissan GT - R">
+                    </div>
+                    <div class="car-details-text">
+                        <div class="title-row">
+                            <h2>Nissan GT- R</h2>
+                            <span class="car-id">#9761</span>
+                        </div>
+                        <p class="car-category">Sport Car</p>
+                    </div>
+                </div>
+
+                
+                <div class="location-group">
+                    <div class="option-title">
+                        <input type="radio" name="pickup_drop_dash" checked>
+                        <label>Pick - Up</label>
+                    </div>
+
+                    <div class="selectors-row">
+                        <div class="select-box">
+                            <label>Locations</label>
+                            <select><option>Kota Semarang</option></select>
+                        </div>
+                        <div class="select-box">
+                            <label>Date</label>
+                            <select><option>20 July 2022</option></select>
+                        </div>
+                        <div class="select-box">
+                            <label>Time</label>
+                            <select><option>07.00</option></select>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="location-group">
+                    <div class="option-title">
+                        <input type="radio" name="pickup_drop_dash">
+                        <label>Drop - Off</label>
+                    </div>
+
+                    <div class="selectors-row">
+                        <div class="select-box">
+                            <label>Locations</label>
+                            <select><option>Kota Semarang</option></select>
+                        </div>
+                        <div class="select-box">
+                            <label>Date</label>
+                            <select><option>21 July 2022</option></select>
+                        </div>
+                        <div class="select-box">
+                            <label>Time</label>
+                            <select><option>01.00</option></select>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="dash-divider">
+
+                
+                <div class="total-price-row">
+                    <div>
+                        <h4>Total Rental Price</h4>
+                        <p>Overall price and includes rental discount</p>
+                    </div>
+                    <h2 class="price-tag">$80.00</h2>
+                </div>
+            </section>
+
+            
+            <aside class="right-analytics">
+
+               
+                <div class="analytics-card">
+                    <div class="card-header-row">
+                        <h3>Top 5 Car Rental</h3>
+                        <i class="fa-solid fa-ellipsis dots-icon"></i>
+                    </div>
+
+                    <ul class="stats-list">
+                        <li>
+                            <span><i class="fa-solid fa-circle dot-blue"></i> Sport Car</span>
+                            <b>17,439</b>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-circle dot-dark-blue"></i> SUV</span>
+                            <b>9,478</b>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-circle dot-cyan"></i> Coupe</span>
+                            <b>18,197</b>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-circle dot-light-blue"></i> Hatchback</span>
+                            <b>12,510</b>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-circle dot-gray"></i> MPV</span>
+                            <b>14,406</b>
+                        </li>
+                    </ul>
+                </div>
+
+                
+                <div class="analytics-card">
+                    <div class="card-header-row">
+                        <h3>Recent Transaction</h3>
+                        <a href="#" class="view-all">View All</a>
+                    </div>
+
+                    <div class="transaction-list">
+                        <div class="transaction-item">
+                            <div class="trans-img">
+                                <img src="car2.webp" alt="Nissan GT - R">
+                            </div>
+                            <div class="trans-info">
+                                <h4>Nissan GT - R</h4>
+                                <p>Sport Car</p>
+                            </div>
+                            <div class="trans-meta">
+                                <span class="date">20 July</span>
+                                <b class="amount">$80.00</b>
+                            </div>
+                        </div>
+
+                        <div class="transaction-item">
+                            <div class="trans-img">
+                                <img src="car.webp" alt="Koenigsegg">
+                            </div>
+                            <div class="trans-info">
+                                <h4>Koenigsegg</h4>
+                                <p>Sport Car</p>
+                            </div>
+                            <div class="trans-meta">
+                                <span class="date">19 July</span>
+                                <b class="amount">$99.00</b>
+                            </div>
+                        </div>
+
+                        <div class="transaction-item">
+                            <div class="trans-img">
+                                <img src="car3.jpg" alt="Rolls - Royce">
+                            </div>
+                            <div class="trans-info">
+                                <h4>Rolls - Royce</h4>
+                                <p>Sport Car</p>
+                            </div>
+                            <div class="trans-meta">
+                                <span class="date">18 July</span>
+                                <b class="amount">$96.00</b>
+                            </div>
+                        </div>
+
+                        <div class="transaction-item">
+                            <div class="trans-img">
+                                <img src="car2.webp" alt="CR - V">
+                            </div>
+                            <div class="trans-info">
+                                <h4>CR - V</h4>
+                                <p>SUV</p>
+                            </div>
+                            <div class="trans-meta">
+                                <span class="date">17 July</span>
+                                <b class="amount">$80.00</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </aside>
+
+        </main>
+
+    </div>
+
+</body>
+</html>

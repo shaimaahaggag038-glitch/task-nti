@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morent - Car Details</title>
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body class="car-details-page">
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>MORENT</h1>
+        </div>
+
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search something here">
+            <i class="fa-solid fa-sliders"></i>
+        </div>
+
+        <div class="right">
+            <div class="icon">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="icon">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class="profile">
+                <img src="(1) Instagram.jpg" alt="Profile">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="app-container-v2">
+
+        <!-- Sidebar -->
+        <aside class="sidebar-v2">
+            
+            <div class="filter-group-v2">
+                <h3>TYPE</h3>
+                
+                <div class="filter-item-v2">
+                    <input type="checkbox" id="type-sport" checked>
+                    <label for="type-sport">Sport <span>(10)</span></label>
+                </div>
+                
+                <div class="filter-item-v2">
+                    <input type="checkbox" id="type-suv" checked>
+                    <label for="type-suv">SUV <span>(12)</span></label>
+                </div>
+                
+                <div class="filter-item-v2">
+                    <input type="checkbox" id="type-mpv">
+                    <label for="type-mpv">MPV <span>(16)</span></label>
+                </div>
+                
+                <div class="filter-item-v2">
+                    <input type="checkbox" id="type-sedan">
+                    <label for="type-sedan">Sedan <span>(20)</span></label>
+                </div>
+                
+                <div class="filter-item-v2">
+                    <input type="checkbox" id="type-coupe">
+                    <label for="type-coupe">Coupe <span>(11)</span></label>
+                </div>
+                
+                <div class="filter-item-v2">
+                    <input type="checkbox" id="type-hatchback">
+                    <label for="type-hatchback">Hatchback <span>(14)</span></label>
+                </div>
+            </div>
+
+            <div class="filter-group-v2">
+                <h3>CAPACITY</h3>
+                
+                <div class="filter-item-v2">
+                    <input type="checkbox" id="cap-2" checked>
+                    <label for="cap-2">2 Person <span>(10)</span></label>
+                </div>
+                
+                <div class="filter-item-v2">
+                    <input type="checkbox" id="cap-4">
+                    <label for="cap-4">4 Person <span>(14)</span></label>
+                </div>
+                
+                <div class="filter-item-v2">
+                    <input type="checkbox" id="cap-6">
+                    <label for="cap-6">6 Person <span>(12)</span></label>
+                </div>
+                
+                <div class="filter-item-v2">
+                    <input type="checkbox" id="cap-8" checked>
+                    <label for="cap-8">8 or More <span>(16)</span></label>
+                </div>
+            </div>
+
+            <div class="filter-group-v2">
+                <h3>PRICE</h3>
+                <div class="price-slider-v2">
+                    <input type="range" min="0" max="100" value="100" class="range-input-v2">
+                    <p class="price-text-v2">Max. $100.00</p>
+                </div>
+            </div>
+
+        </aside>
+
+        
+        <main class="main-content-v2">
+
+            
+            <section class="details-top">
+                
+                
+                <div class="gallery-card">
+                    <div class="gallery-hero">
+                        <h2>Sports car with the best design and acceleration</h2>
+                        <p>Safety and comfort while driving a futuristic and elegant sports car</p>
+                        <img src="car2.webp" class="main-car-img">
+                    </div>
+
+                    <div class="thumbs">
+                        <div class="thumb active">
+                            <img src="car2.webp">
+                        </div>
+                        <div class="thumb">
+                            <img src="car.webp">
+                        </div>
+                        <div class="thumb">
+                            <img src="car3.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="info-card">
+                    <div class="info-header">
+                        <div>
+                            <h3>Nissan GT - R</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>440+ Reviewer</span>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-heart red"></i>
+                    </div>
+
+                    <p class="desc">
+                        NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the "race track".
+                    </p>
+
+                    <div class="specs">
+                        <div class="spec-item">
+                            <span>Type Car</span>
+                            <b>Sport</b>
+                        </div>
+                        <div class="spec-item">
+                            <span>Capacity</span>
+                            <b>2 Person</b>
+                        </div>
+                        <div class="spec-item">
+                            <span>Steering</span>
+                            <b>Manual</b>
+                        </div>
+                        <div class="spec-item">
+                            <span>Gasoline</span>
+                            <b>70L</b>
+                        </div>
+                    </div>
+
+                    <div class="price-box">
+                        <div>
+                            <h2>$80.00/ <span>days</span></h2>
+                            <del>$100.00</del>
+                        </div>
+                        <button class="btn-rent">Rent Now</button>
+                    </div>
+                </div>
+
+            </section>
+
+            
+            <section class="reviews-section">
+                <div class="reviews-header">
+                    <h3>Reviews <span class="badge">13</span></h3>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-user">
+                        <div class="user-info">
+                            <img src="(1) Instagram.jpg" class="user-avatar">
+                            <div class="user-meta">
+                                <h4>Alex Stanton</h4>
+                                <p>CEO at Bukalapak</p>
+                            </div>
+                        </div>
+
+                        <div class="review-right">
+                            <span class="date">21 July 2022</span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">We are very happy with the service from the MORENT App. Morent has a low price and also a large variety of cars with good and comfortable facilities.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-user">
+                        <div class="user-info">
+                            <img src="(1) Instagram.jpg" class="user-avatar">
+                            <div class="user-meta">
+                                <h4>Skylar Dias</h4>
+                                <p>CEO at Amazon</p>
+                            </div>
+                        </div>
+
+                        <div class="review-right">
+                            <span class="date">20 July 2022</span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">We are greatly helped by the services of the MORENT Application. Morent has low prices and also a wide variety of cars with good and comfortable facilities.</p>
+                </div>
+
+                <div class="show-all-reviews">
+                    <a href="#">Show All <i class="fa-solid fa-chevron-down"></i></a>
+                </div>
+            </section>
+
+            
+            <section class="popular">
+                <div class="popular-title">
+                    <h3>Recent Car</h3>
+                    <a href="#">View All</a>
+                </div>
+
+                <div class="popular-cards">
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3>Koenigsegg</h3>
+                                <p>Sport</p>
+                            </div>
+                            <i class="fa-solid fa-heart red"></i>
+                        </div>
+                        <img src="car.webp" class="car-img">
+                        <div class="details">
+                            <span><i class="fa-solid fa-gas-pump"></i>90L</span>
+                            <span><i class="fa-solid fa-gear"></i>Manual</span>
+                            <span><i class="fa-solid fa-users"></i>2 People</span>
+                        </div>
+                        <div class="price">
+                            <h2>$99.00 <span>/ day</span></h2>
+                            <button>Rent Now</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3>Nissan GT - R</h3>
+                                <p>Sport</p>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <img src="car2.webp" class="car-img">
+                        <div class="details">
+                            <span><i class="fa-solid fa-gas-pump"></i>80L</span>
+                            <span><i class="fa-solid fa-gear"></i>Manual</span>
+                            <span><i class="fa-solid fa-users"></i>2 People</span>
+                        </div>
+                        <div class="price">
+                            <div>
+                                <h2>$80.00 <span>/ day</span></h2>
+                                <del>$100.00</del>
+                            </div>
+                            <button>Rent Now</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3>Rolls - Royce</h3>
+                                <p>Sedan</p>
+                            </div>
+                             <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <img src="car3.jpg" class="car-img">
+                        <div class="details">
+                            <span><i class="fa-solid fa-gas-pump"></i>70L</span>
+                            <span><i class="fa-solid fa-gear"></i>Manual</span>
+                            <span><i class="fa-solid fa-users"></i>4 People</span>
+                        </div>
+                        <div class="price">
+                            <h2>$96.00 <span>/ day</span></h2>
+                            <button>Rent Now</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            
+            <section class="popular">
+                <div class="popular-title">
+                    <h3>Recommendation Car</h3>
+                    <a href="#">View All</a>
+                </div>
+
+                <div class="popular-cards">
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3>AllNew Rush</h3>
+                                <p>SUV</p>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <img src="car.webp" class="car-img">
+                        <div class="details">
+                            <span><i class="fa-solid fa-gas-pump"></i>70L</span>
+                            <span><i class="fa-solid fa-gear"></i>Manual</span>
+                            <span><i class="fa-solid fa-users"></i>6 People</span>
+                        </div>
+                        <div class="price">
+                            <div>
+                                <h2>$72.00 <span>/ day</span></h2>
+                                <del>$80.00</del>
+                            </div>
+                            <button>Rent Now</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3>CR - V</h3>
+                                <p>SUV</p>
+                            </div>
+                            <i class="fa-solid fa-heart red"></i>
+                        </div>
+                        <img src="car2.webp" class="car-img">
+                        <div class="details">
+                            <span><i class="fa-solid fa-gas-pump"></i>80L</span>
+                            <span><i class="fa-solid fa-gear"></i>Manual</span>
+                            <span><i class="fa-solid fa-users"></i>6 People</span>
+                        </div>
+                        <div class="price">
+                            <h2>$80.00 <span>/ day</span></h2>
+                            <button>Rent Now</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div>
+                                <h3>All New Terios</h3>
+                                <p>SUV</p>
+                            </div>
+                             <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <img src="car3.jpg" class="car-img">
+                        <div class="details">
+                            <span><i class="fa-solid fa-gas-pump"></i>90L</span>
+                            <span><i class="fa-solid fa-gear"></i>Manual</span>
+                            <span><i class="fa-solid fa-users"></i>6 People</span>
+                        </div>
+                        <div class="price">
+                            <h2>$74.00 <span>/ day</span></h2>
+                            <button>Rent Now</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    
+    <section class="footer-section">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h2 class="footer-logo">MORENT</h2>
+                <p class="footer-desc">Our vision is to provide convenience and help increase your sales business.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#"> How it workes</a></li>
+                    <li><a href="#"> Featured</a></li>
+                    <li><a href="#"> Partnership</a></li>
+                    <li><a href="#"> Bussiness Relation</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Community</h3>
+                <ul>
+                    <li><a href="#"> Events</a></li>
+                    <li><a href="#"> Blog</a></li>
+                    <li><a href="#"> podcast</a></li>
+                    <li><a href="#"> Invite a friend</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Socials</h3>
+                <ul>
+                    <li><a href="#"> Discord</a></li>
+                    <li><a href="#"> Instagram</a></li>
+                    <li><a href="#"> Twitter</a></li>
+                    <li><a href="#"> Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <hr class="footer">
+
+    <div class="footer-bottom">
+        <div class="footer-copy">
+            @2022 MORENT.All rights reserved
+        </div>
+        <div class="footer-p">
+            <a href="#">Privacy & Policy</a>
+            <a href="#"> Terms & Condition</a>
+        </div>
+    </div>
+
+</body>
+</html>
